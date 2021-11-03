@@ -14,7 +14,7 @@
     
 These are my repositories where i have been trying to do fun projects to expand my horizon of knowledge in my college years.\
 It includes projects from many fields like data science,algorithms,python projects,cyber security blogs(wargames),etc.\
-You can contact me at my email- 'adityaadiga6@gmail.com' or instagram - [@emcee.ad](https://www.instagram.com/emcee.ad/) for feedbacks and questions.\
+You can contact me at my email- 'adityaadiga6@gmail.com' for feedbacks and questions.\
 Enjoy the journey, Sayonara.
 
 ---
