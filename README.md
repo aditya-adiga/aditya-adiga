@@ -1,4 +1,16 @@
-# Holla Amigos
+<h1 align="center">:wave: Holla, I'm Aditya</h1>
+
+<p align="center">
+  <a href="https://github.com/aditya-adiga">
+    <img src="https://img.shields.io/badge/aditya-adiga-100000?style=for-the-badge&logo=github&logoColor=white">
+   <a/>
+  <a href="https://www.linkedin.com/in/aditya-adiga-a243631a1/">
+    <img src="https://img.shields.io/badge/aditya-adiga-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  <a/>
+   <a href="https://www.instagram.com/emcee.ad/">
+    <img src="https://img.shields.io/badge/@emcee.ad-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  <a/>
+</p>
 This is my repositories where i have been trying to do random projects to expand my horizon of knowledge in my college years.\
 It includes projects from many feilds like data science,algorithms,python projects,cyber security blogs(wargames),etc.\
 You can contact me at my email- 'adityaadiga6@gmail.com' or instagram - [@emcee.ad](https://www.instagram.com/emcee.ad/) for feedbacks and questions.\
