@@ -11,8 +11,6 @@
     <img src="https://img.shields.io/badge/@emcee.ad-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   <a/>
 </p>
----
-    
     
 This is my repositories where i have been trying to do random projects to expand my horizon of knowledge in my college years.\
 It includes projects from many feilds like data science,algorithms,python projects,cyber security blogs(wargames),etc.\
