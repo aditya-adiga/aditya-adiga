@@ -1,4 +1,4 @@
-<h1 align="center">:wave: Holla, I'm Aditya</h1>
+<h1 align="center">:wave: Hi, I'm Aditya</h1>
 
 <p align="center">
   <a href="https://github.com/aditya-adiga">
