@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aditya Adiga
 
-## Getting Started
+**AI Safety Researcher | Computer Vision & Medical Imaging Background**
 
-First, run the development server:
+Hello! I'm Aditya. My primary research focuses on **AI Alignment**, **Human-AI Interaction**, **Epistemic Tools**, and **context-flexible risks** in AI systems. I also have a strong technical background in **Computer Vision**, **Computational Pathology**, and **Medical Imaging**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔭 Current Research
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🧩 MOSSAIC
+**Substrate-sensitive approaches to AI risk mitigation**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Exploring how AI risks and failure modes change across computational substrates, architectures, and deployment contexts. I am developing frameworks that treat substrate sensitivity as a first-class concern, proposing families of mitigation strategies rather than universal solutions.
 
-## Learn More
+### 🧵 Live Conversational Threads
+**Epistemic tools for collective sensemaking in AI safety research**
 
-To learn more about Next.js, take a look at the following resources:
+Investigating how AI systems can support collective sensemaking without displacing human judgment. I am designing and developing an epistemic interface that backgrounds AI while preserving context, structure, and interpretive agency, using directed acyclic graphs (DAGs) to maintain thematic relationships.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+-   **Languages**: Python, C++, TypeScript/JavaScript
+-   **AI/ML**: PyTorch, Scikit-Learn, OpenCV, Detectron2
+-   **Web**: Next.js, React, TailwindCSS
+-   **Tools**: Git, Docker, LaTeX
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📫 Connect with Me
+
+-   [**Email**](mailto:adityaadiga6@gmail.com)
+-   [**LinkedIn**](https://www.linkedin.com/in/aditya-adiga-a243631a1/)
+-   [**LessWrong**](https://www.lesswrong.com/users/adiga)
+-   [**GitHub**](https://github.com/aditya-adiga)
