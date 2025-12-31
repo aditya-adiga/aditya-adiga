@@ -55,27 +55,34 @@ export default function ResearchView() {
             <CVSection title="Projects">
                 <CVProject
                     title="MOSSAIC"
+                    url="https://openreview.net/forum?id=n7WYSJ35FU"
                     subtitle="Addressing substrate sensitivity risks in AI systems"
                     affiliation="Groundless AI / AI Safety Camp"
                     collaborators="Collaborators: Matthew Farr (Groundless AI), Sahil (Groundless AI)"
-                    summary="MOSSAIC explores how AI risks and failure modes change across computational substrates, architectures, and deployment contexts. The work focuses on why safety interventions that succeed in one setting often fail when transferred to another. I develop frameworks that treat substrate sensitivity as a first-class concern, proposing families of mitigation strategies rather than universal solutions. This project contributes conceptual and theoretical grounding for substrate flexibility as a core problem in AI safety research."
+                    summary="MOSSAIC explores how AI risks and failure modes change across computational substrates, architectures, and deployment contexts. The work focuses on why safety interventions that succeed in one setting often fail when we try to transfer it directly to another. We are working towards building frameworks that capitalise on AI capabilities to generate substrate-sensitive mitigation strategies, proposing a family of safety interventions rather than a uniform solution. This work contributes conceptual and theoretical grounding for substrate flexibility as a core problem in AI safety research."
                 />
 
                 <div className="mt-8"></div>
                 <CVProject
                     title="Live Conversational Threads"
+                    url="https://www.lesswrong.com/posts/uueHkKrGmeEsKGHPR/live-conversational-threads-not-an-ai-notetaker-2"
                     subtitle="Epistemic tool for collective sensemaking during conversations"
                     affiliation="Groundless AI / AI Safety Camp"
                     collaborators="Collaborator: Sahil (Groundless AI)"
-                    summary="This project investigates how AI systems can support collective sensemaking without displacing human judgment. I designed an epistemic interface that backgrounds AI while preserving context, structure, and interpretive agency. Conversations are represented as directed acyclic graphs to maintain thematic relationships and enable non-disruptive navigation. The system supports bookmarking and marking potential insights, which can later be used to generate AI-assisted formalisms tailored to specific research interests. Alongside the technical work, I contribute philosophical analysis on human participation in AI-mediated research environments."
+                    links={[
+                        { label: "Live Demo", url: "https://www.tinyurl.com./live-threads" },
+                        { label: "GitHub", url: "https://github.com/aditya-adiga/live_conversational_threads" }
+                    ]}
+                    summary="This project investigates interfaces for AI systems can support collective sensemaking to facilitate genuine human interaction and discernment. I designed an epistemic interface that backgrounds AI while preserving context, structure, and interpretive agency. Conversations are represented as directed acyclic graphs to maintain thematic relationships and enable non-disruptive navigation. The system supports bookmarking and marking potential insights, which can later be used to generate AI-assisted formalisms tailored to specific research interests. Alongside the technical work, I also made philosophical contributions to ideas around AI interfaces that enable meaningful human participation in increasingly AI-integrated environments, with relevance to AI safety and collaborative research."
                 />
 
                 <div className="mt-8"></div>
                 <CVProject
                     title="MDD Classification using 3D Convolutional Neural Networks"
+                    url="https://www.mdpi.com/2076-3417/15/19/10312"
                     affiliation="Independent"
                     collaborators="Collaborator: Dr. BS Mahanand (JSS Science and Technology University)"
-                    summary="This project explores MRI-based classification of Major Depressive Disorder using three-dimensional convolutional neural networks. I designed and iteratively refined model architectures and built training and inference pipelines to support systematic experimentation. To improve interpretability, I applied Grad-CAM–based visualisation techniques to analyse model activations and identify salient brain regions. The work emphasises understanding model behaviour alongside predictive performance."
+                    summary="This project explores MRI-based classification of Major Depressive Disorder using three-dimensional convolutional neural networks. I designed and iteratively refined model architectures and built training and inference pipelines to support systematic experimentation. I applied Grad-CAM–based visualisation techniques to analyse model activations and identify salient brain regions. The work emphasises understanding model behaviour alongside predictive performance."
                 />
 
                 <div className="mt-8"></div>
@@ -89,7 +96,7 @@ export default function ResearchView() {
                 <CVProject
                     title="Tumour Microenvironment Segmentation in Whole Slide Images"
                     affiliation="Indx.AI"
-                    summary="I worked on semantic segmentation of complex tumour microenvironments in whole-slide histopathology images. Using a UNET++-based architecture, I developed models to identify tumours, stroma, and surrounding tissue under conditions of high biological variability. Close collaboration with a pathologist informed annotation strategies and iterative model refinement. The resulting system achieved approximately 80% intersection-over-union while remaining robust to heterogeneous tissue structure."
+                    summary="I worked on semantic segmentation of complex tumour microenvironments in whole-slide histopathology images. Using a UNET++-based architecture, I developed models to identify tumours, stroma, and surrounding tissue under conditions of high biological variability. Collaborated closely with a pathologist to annotate underrepresented regions and iteratively refine model performance. The resulting system achieved approximately 80% intersection-over-union while remaining robust to heterogeneous tissue structure."
                 />
 
                 <div className="mt-8"></div>
