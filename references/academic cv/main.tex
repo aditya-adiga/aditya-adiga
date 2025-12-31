@@ -1,0 +1,402 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{fontawesome}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{enumitem}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3}  & \text{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEduheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3}  & \text{\small #4} \\
+      \text{\small #5}  & \textit{\small} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape ADITYA ADIGA} 
+    \\ \vspace{10pt}
+     \href{mailto:adityaadiga6@gmail.com}{\underline{adityaadiga6@gmail.com}} $|$
+%    \href{https://github.com/aditya-adiga}{\underline{aditya-adiga} \faGithub} $|$
+    \href{https://www.linkedin.com/in/aditya-adiga-a243631a1/}{\underline{Aditya Adiga} \faLinkedin}
+%    \small Sophomore, IIT Delhi
+    
+\end{center}
+
+%-----------Researcg Interests-----------
+
+\textbf{Research Interests: } My primary research focuses on AI Alignment, Human-AI Interaction, Epistemic Tools and context-flexible risks in AI systems. I also have a technical background in Computer Vision, Computational Pathology, and Medical Imaging.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEduheading
+      {JSS Science and Technology University, Mysore}{Mysore, India}
+      {B.E. in Computer Science and Business Systems}{2019 -- 2023}
+      {Overall GPA: \textbf{8.69/10.0}}
+    
+  \resumeSubHeadingListEnd
+
+
+
+% \section{Awards and Honours}
+%  \begin{itemize}[leftmargin=0.15in]
+%     \itemsep0em
+%     \small{\item{
+%      Selected for \textbf{Change of Program} at the end of first year. (CGPA \textbf{9.912/10})
+%     }}
+%     \small{\item{
+%      Awarded \textbf{IIT Delhi Semester Merit Award} in Semester I, and II (2019-2020) for being among the Institute's \textbf{top 7\%} students \\
+%     }}
+%     \small{\item{
+%      Secured All India Rank \textbf{443} in \textbf{JEE Advanced 2019} amongst 245,000 candidates \\
+%     }}
+%     \small{\item{
+%      Secured All India Rank \textbf{283} in \textbf{JEE Main 2019} amongst 1.14 million candidates \\
+%     }}
+%     \small{\item{
+%      Awarded the \textbf{NTSE Scholarship} for being in the top 750 students out of 800,000+ students
+%     }}
+%     \small{\item{
+%      Qualified the \textbf{National Standard Examination in Chemistry} (precursor to IChO) \\
+%     }}
+%     \small{\item{
+%      Qualified the \textbf{National Standard Examination in Physics} (precursor to IPhO) \\
+%     }}
+%     \small{\item{
+%      Received the prestigious \textbf{KVPY SX 2018-19} fellowship from Govt. of India with All India Rank \textbf{689}  \\
+%     }}
+%     % \small{\item{
+%     %  Current rating of \textbf{1666} on Codeforces. (Handle: {\texttt{\href{https://codeforces.com/profile/aayushgoyal443}{aayushgoyal443}}})  \\
+%     % }}
+    
+%  \end{itemize}
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+\nocite{*}
+\begingroup
+\renewcommand{\section}[2]{}  % Temporarily disables section command
+\bibliographystyle{unsrt}
+\bibliography{references}
+\endgroup
+%
+
+%-----------GRANTS and Awards-----------
+\section{Grants and Awards}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{\textbf{Epistea Research Scholarship}: Recipient of fiscal support to work on \textit{Live Theory Research Agenda}, focusing on human-centric epistemic tools and substrate-flexible risks arising from AI.}
+        
+        \resumeItem{\textbf{AI Safety Support Grant}: Awarded funding to work on the Autostructures project which is a part of \textit{Live Theory Research Agenda}, at AI Safety Camp.}
+    
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+%-----------RESEARCH EXPERIENCE & PROJECTS-----------
+\section{Research Experience \& Projects}
+\resumeSubHeadingListStart
+
+%---- Groundless AI / AI Safety Camp ----
+\resumeSubheading
+  {Groundless AI / AI Safety Camp}{Jan 2025 -- Present}
+  \hspace{}\textit{AI Safety Researcher} \\[-0.3em]
+  \vspace{0.3em}
+  {\small Funding: Epistea (Research Scholarship); AI Safety Support (Research Grant)}
+
+\vspace{0.5em}
+
+\noindent\textbf{MOSSAIC} — \textit{Substrate-sensitive approaches to AI risk mitigation} \\
+{\small Collaborators: Matthew Farr (Groundless AI), Sahil (Groundless AI)}
+\resumeItemListStart
+  \resumeItem{Conducting research on \textbf{substrate-flexible risks} in AI systems, focusing on failure modes and safety concerns that manifest differently across distinct \textbf{computational substrates}, architectures, and deployment contexts.}
+  \resumeItem{Investigating limitations of \textbf{single-solution safety interventions} when applied across heterogeneous substrates.}
+  \resumeItem{Developing frameworks that capitalise on \textbf{AI capabilities} to generate \textbf{substrate-sensitive mitigation strategies}, proposing a \textbf{family of safety interventions} rather than a uniform solution.}
+  \resumeItem{Contributing to the \textbf{theoretical grounding} and \textbf{conceptual clarification} of substrate flexibility as a core concern in \textbf{AI safety research}.}
+\resumeItemListEnd
+
+\noindent\textbf{Live Conversational Threads} — \textit{Epistemic tools for collective sensemaking in AI safety research}
+{\small Collaborator: Sahil (Groundless AI)}
+\resumeItemListStart
+  \resumeItem{Proposed and developed an \textbf{epistemic tool for collective sensemaking}, emphasising \textbf{human-centred AI interfaces} that background AI to facilitate genuine human interaction and discernment.}
+  \resumeItem{Designed a \textbf{directed acyclic graph (DAG)} representation of conversational threads to capture \textbf{contextual and thematic relationships}, enabling non-disruptive navigation.}
+  \resumeItem{Implemented features for \textbf{bookmarking} and \textbf{``potential insight'' marking}, enhancing \textbf{collaborative sensemaking} and discovery of novel theoretical constructs.}
+  \resumeItem{Enabled \textbf{AI-driven formalism generation} from marked insights in conversations, personalised to user-defined research interests (e.g., Mechanistic Interpretability, Model Evaluations, Developmental Interpretability).}
+  \resumeItem{Contributed philosophical analysis on AI interfaces enabling meaningful human participation in increasingly AI-integrated research environments.}
+\resumeItemListEnd
+
+\vspace{0.5em}
+
+%---- Independent Research ----
+\resumeSubheading
+  {Independent Research}{Oct 2024 -- Present}
+  \hspace{}\textit{AI Researcher}
+
+\vspace{0.5em}
+
+\noindent\textbf{MDD Classification using 3D Convolutional Neural Networks} \\
+{\small Collaborator: Dr. BS Mahanand (JSS Science and Technology University)}
+\resumeItemListStart
+  \resumeItem{Designed and iteratively refined 3D convolutional neural network architectures for MRI-based classification of \textbf{Major Depressive Disorder}.}
+  \resumeItem{Developed training and inference pipelines to support systematic experimentation and evaluation.}
+  \resumeItem{Employed \textbf{Grad-CAM–based visualisation} to analyse model activations for improved interpretability and identification of salient brain regions.}
+\resumeItemListEnd
+
+\vspace{0.5em}
+
+%---- Indx.AI ----
+\resumeSubheading
+  {Indx.AI}{Jan 2023 -- Aug 2024}
+  \hspace{}\textit{Junior Data Scientist / Research Intern}
+
+\vspace{0.5em}
+
+\noindent\textbf{Tumour Microenvironment Segmentation in Whole Slide Images}
+
+\resumeItemListStart
+  \resumeItem{Developed a \textbf{UNET++-based segmentation model} to identify tumours, stroma, and surrounding tissue in WSIs, achieving approximately \textbf{80\% IoU}.}
+  \resumeItem{Addressed challenges arising from heterogeneous pathological microenvironments with substantial tissue variability.}
+  \resumeItem{Collaborated closely with a pathologist to annotate underrepresented regions and iteratively refine model performance.}
+\resumeItemListEnd
+
+\noindent\textbf{Instance Segmentation of Tumour-Inflicting Lymphocytes}
+
+\resumeItemListStart
+  \resumeItem{Fine-tuned \textbf{Detectron2-based instance segmentation models} to identify \textbf{tumour-infiltrating lymphocytes (TILs)} within inflamed stroma regions.}
+  \resumeItem{Integrated the segmented output of the earlier project, focusing on refining the model’s ability to detect lymphocytes effectively within the context of the tumour microenvironment.}
+  \resumeItem{Validated segmentation results with domain experts to ensure relevance for \textbf{immunotherapy analysis}.}
+\resumeItemListEnd
+
+\pagebreak
+
+\noindent\textbf{Feature Extraction and Multiple Instance Learning for Biomarker Scoring}
+
+\resumeItemListStart
+  \resumeItem{Built \textbf{feature extraction pipelines} using histopathology foundation models to derive biologically meaningful representations.}
+  \resumeItem{Experimented with multiple \textbf{Multiple Instance Learning (MIL)} strategies for regression-based biomarker scoring.}
+  \resumeItem{Evaluated model outputs for \textbf{biological plausibility} and \textbf{clinical applicability}.}
+\resumeItemListEnd
+
+\noindent\textbf{Parallelised Image Stitching and Heatmap Overlay Pipeline}
+
+\resumeItemListStart
+  \resumeItem{Implemented a \textbf{parallelised VIPS-based pipeline} to stitch approximately \textbf{8 million image tiles} into pyramidal TIFF images.}
+  \resumeItem{Integrated \textbf{heatmap overlays} to enhance interpretability of model outputs.}
+  \resumeItem{Reduced end-to-end processing time from \textbf{several hours to under 10 minutes}, significantly improving scalability.}
+\resumeItemListEnd
+
+\noindent\textbf{Integration of In-House Pathology Image Viewer with AI Pipelines}
+
+\resumeItemListStart
+  \resumeItem{Integrated AI inference pipelines with an \textbf{in-house pathology image viewer} to support deployment and evaluation of WSI models.}
+  \resumeItem{Designed workflows via \textbf{user interviews} to align model outputs with \textbf{clinical interpretability requirements}.}
+  \resumeItem{Implemented \textbf{API-level integration} linking image storage, predictions, and visualisation layers.}
+  \resumeItem{Improved \textbf{usability and interpretability} of model outputs, supporting smoother diagnostic and research workflows.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+    % \resumeSubheading
+    %   {Automated Invoice Information Extraction}{}
+    %   \hspace{}\textit{IndiaSpeaks Research Labs (Freelance)}
+    %   \resumeItemListStart
+    %     \resumeItem{Designed and implemented an \textbf{OCR-based pipeline} to extract critical fields such as invoice numbers, dates, and totals from scanned invoice images, automating manual data entry tasks.}
+    %     \resumeItem{Developed preprocessing workflows leveraging \textbf{image registration} to align scanned documents and \textbf{template matching} to accurately locate structured fields.}
+    %     \resumeItem{Integrated preprocessing techniques, including skew correction and contrast enhancement, to generate optimised images for OCR processing.}
+    %     \resumeItem{Collaborated on testing and refining the pipeline, focusing on scalability and robustness to handle real-world datasets and multiple invoice formats.}
+    %   \resumeItemListEnd
+  
+
+%-----------PRESENTATIONS-----------
+\section{Presentations}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+    
+        \resumeItem{Presented \textbf{Smart Greenhouse Management System Using IoT and Multivariate Fuzzy Logic} at the  International Conference on Innovative Computing and Communications (\textbf{ICICC 2024}), New Delhi.}
+        \resumeItem{Presented \textbf{Live Conversational Threads as part of the Autostructures project} at the Minimal AI Safety Unconference (\textbf{MAISU 2025}).}
+        \resumeItem{\textbf{Live Conversational Threads} was presented and alpha-tested at \textbf{PIBBSS Fellowship Retreat}, \textbf{AI Alignment Retreat in India} and \textbf{Groundless Residency} and was positively received.}
+        
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+    \resumeItemListStart
+        \resumeItem{\textbf{Programming Languages:} Python, C++}
+        \resumeItem{\textbf{Libraries/Frameworks:} 
+            \begin{itemize}
+                \item \textbf{Machine Learning:} PyTorch, Scikit-Learn
+                \item \textbf{Image Processing:} OpenCV, PIL (Pillow), VIPS
+                \item \textbf{Data Analysis:} NumPy, Pandas
+                \item \textbf{Visualization:} Matplotlib, Seaborn
+            \end{itemize}}
+        \resumeItem{\textbf{Tools/Utilities:} 
+            \begin{itemize}
+                \item \textbf{Version Control:} Git
+                \item \textbf{Development Tools:} Jupyter, Anaconda, Visual Studio Code, Cursor
+                \item \textbf{Others:} Docker, \LaTeX
+            \end{itemize}}
+        \resumeItem{\textbf{Key Competencies:} 
+        AI Alignment, Human-Centred AI, Human-Computer Interface, 
+        Machine Learning, Deep Learning, Model Interpretability, 
+        Medical Imaging Analysis, Image Processing, 
+        Data Analysis, Data Visualisation, Research Prototyping, Empirical Evaluation}
+
+    \resumeItemListEnd
+ 
+ \section{Extra Curricular}
+     \resumeItemListStart
+            \resumeItem{\textbf{Languages:} English, Kannada, Hindi, Tulu.}
+            \resumeItem{\textbf{Conferences:} 
+                EAGx India 2025 Conference, EAGx India 2024 Conference,
+                Minimial AI Safety Unconference,
+                International Conference On Innovative Computing And Communication
+                }
+            \resumeItem{\textbf{Meetups and reading groups:} 
+                EA India,
+                EA Bangalore,
+                EA DeepReads India,
+                EA virtual program,
+                AI Alignment Retreat,
+                Rationalish Meetup India,
+                AI Safety and Philosophy Meetup.}
+            \resumeItem{\textbf{NGOs and College Clubs:} 
+                VentureX (E-cell), 
+                Computer Society of India (CS Club),  
+                Project Reachout (NGO),  
+                AeroJC (Aeromodelling Club),  
+                EA Community.}
+        \resumeItemListEnd
+ 
+ 
+% \section{References}
+% \begin{itemize}
+
+%     \item \textbf{Dr. Anand Raj Ulle} \\
+%     Data Scientist, \textit{1Cell.Ai} \\
+%     Email: \texttt{anand.ulle@indx.ai}
+
+%     \item \textbf{Dr. Mahanand B S} \\
+%     Professor, Department of Information Science and Engineering \\
+%     \textit{JSS Science and Technology University} \\
+%     Mysore 570 006, India \\
+%     Email: \texttt{bsmahanand@sjce.ac.in}
+
+% \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
