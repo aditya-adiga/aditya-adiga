@@ -14,16 +14,20 @@ export default function ResearchView() {
             <CVSection title="Publications">
                 <ul className="list-disc list-outside ml-4 space-y-4 text-base font-serif text-[var(--color-foreground)]/90">
                     <li className="pl-1 marker:text-[var(--color-foreground)]/50">
+                        <strong>Aditya Adiga</strong>. <a href="https://www.lesswrong.com/posts/uueHkKrGmeEsKGHPR/live-conversational-threads-not-an-ai-notetaker-2" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-sage)] transition-colors border-b border-[var(--color-foreground)]/40 hover:border-[var(--color-sage)]"><em>Live Conversational Threads: Not an AI Notetaker.</em></a> LessWrong, 2025.
+                        <br /><span className="italic block mt-1 opacity-80">Contribution: Designed and developed Live Conversational Threads and wrote a blog presenting my perspective on live theory and how this application supports it.</span>
+                    </li>
+                    <li className="pl-1 marker:text-[var(--color-foreground)]/50">
                         Matt Farr, Aditya Arpitha Prasad, Chris Pang, <strong>Aditya Adiga</strong>, Jayson Amati, and Sahil K. <a href="https://openreview.net/forum?id=n7WYSJ35FU" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-sage)] transition-colors border-b border-[var(--color-foreground)]/40 hover:border-[var(--color-sage)]"><em>MoSSAIC: AI safety after mechanism.</em></a> In Submitted to ILIAD 2: ODYSSEY, 2025. Accepted.
-                        <br /><span className="italic block mt-1 opacity-80">Contribution: developed and presented an interface to support the ideas in the paper.</span>
+                        <br /><span className="italic block mt-1 opacity-80">Contribution: Developed and presented an interface to support the ideas in the paper.</span>
                     </li>
                     <li className="pl-1 marker:text-[var(--color-foreground)]/50">
                         Bindiya A. R., <strong>Aditya Adiga</strong>, B. S. Mahanand, and DIRECT Consortium. <a href="https://www.mdpi.com/2076-3417/15/19/10312" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-sage)] transition-colors border-b border-[var(--color-foreground)]/40 hover:border-[var(--color-sage)]"><em>3D convolutional neural network model for detection of major depressive disorder from grey matter images.</em></a> Applied Sciences, 15(19), 2025.
-                        <br /><span className="italic block mt-1 opacity-80">Contribution: worked on system design, implementation, analysis and manuscript writing.</span>
+                        <br /><span className="italic block mt-1 opacity-80">Contribution: Worked on system design, implementation, analysis and manuscript writing.</span>
                     </li>
                     <li className="pl-1 marker:text-[var(--color-foreground)]/50">
                         <strong>Aditya Adiga</strong>, J Chandra Darshan, and K K Umesh. <a href="https://link.springer.com/chapter/10.1007/978-981-99-9069-6_23" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-sage)] transition-colors border-b border-[var(--color-foreground)]/40 hover:border-[var(--color-sage)]"><em>Smart greenhouse management system using IoT and multivariate fuzzy logic.</em></a> In Lecture Notes in Networks and Systems, Springer Nature Singapore, 2024.
-                        <br /><span className="italic block mt-1 opacity-80">Contribution: responsible for the entire project lifecycle, including conceptualisation, system design, implementation, and manuscript writing.</span>
+                        <br /><span className="italic block mt-1 opacity-80">Contribution: Responsible for the entire project lifecycle, including conceptualisation, system design, implementation, and manuscript writing.</span>
                     </li>
                 </ul>
             </CVSection>
