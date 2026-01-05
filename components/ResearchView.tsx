@@ -1,4 +1,4 @@
-"use client";
+
 
 import React from "react";
 import CVHeader from "@/components/cv/CVHeader";
