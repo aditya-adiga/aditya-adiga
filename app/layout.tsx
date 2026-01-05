@@ -17,9 +17,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aditya Adiga – AI Alignment Researcher | Portfolio",
+  title: "Aditya Adiga – AI Safety and Alignment Researcher | Portfolio",
   description:
-    "Official website of Aditya Adiga, AI alignment researcher working on the live theory research agenda at Groundless AI. Portfolio of research, projects, and thoughts.",
+    "Official website of Aditya Adiga, AI safety and alignment researcher working on the live theory research agenda at Groundless AI. Portfolio of research, projects, and thoughts.",
   alternates: {
     canonical: "https://adityaadiga.com",
   },
