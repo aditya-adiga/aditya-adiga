@@ -26,7 +26,7 @@ export default function ResearchView() {
                         <br /><span className="italic block mt-1 opacity-80">Contribution: Worked on system design, implementation, analysis and manuscript writing.</span>
                     </li>
                     <li className="pl-1 marker:text-[var(--color-foreground)]/50">
-                        <strong>Aditya Adiga</strong>, J Chandra Darshan, and K K Umesh. <a href="https://link.springer.com/chapter/10.1007/978-981-99-9069-6_23" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-sage)] transition-colors border-b border-[var(--color-foreground)]/40 hover:border-[var(--color-sage)]"><em>Smart greenhouse management system using IoT and multivariate fuzzy logic.</em></a> In Lecture Notes in Networks and Systems, Springer Nature Singapore, 2024.
+                        <strong>Aditya Adiga</strong>, J Chandra Darshan, and K K Umesh. <a href="https://link.springer.com/chapter/10.1007/978-981-97-4228-8_18" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-sage)] transition-colors border-b border-[var(--color-foreground)]/40 hover:border-[var(--color-sage)]"><em>Smart greenhouse management system using IoT and multivariate fuzzy logic.</em></a> In Lecture Notes in Networks and Systems, Springer Nature Singapore, 2024.
                         <br /><span className="italic block mt-1 opacity-80">Contribution: Responsible for the entire project lifecycle, including conceptualisation, system design, implementation, and manuscript writing.</span>
                     </li>
                 </ul>
